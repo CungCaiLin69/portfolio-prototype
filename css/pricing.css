@@ -1,0 +1,217 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 500%;
+    margin: 0 auto;
+    color:  black;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3, h2{
+    color: black
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6 6px;
+    border-width: 5px;
+    height: 0;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  
+@keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+}
+  
+@keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+        to bottom,
+        #6B73FF,
+        #000DFF
+    );
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track{
+    background: #969892;
+}
+
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title{
+    background-color: #98c1d9;
+    color: black;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.profile-highlight{
+    margin: 100px auto 20px auto;
+}
+
+#copywrite{
+    background-color: #fff;
+    position: relative;
+}
+
+.price-bio{
+    padding-top: 50px;
+    margin: 0 500px 50px 50px;
+    text-align: left;
+}
+
+.price-write{
+    margin-bottom: 50px;
+}
+
+.btn-info{
+    position: absolute;
+    margin-left: 900px;
+    top: 57px;
+}
+
+#pricing{
+    background-color: #fff;
+    position: relative;
+    padding: 7% 15%;
+}
+
+.pricing-title{
+    margin-bottom: 30px;
+}
+
+.card{
+    display: inline-block;
+    margin: 35px 15px -35px 0;
+}
+
+.card-price{
+    margin-left: 415px;
+}
+
+th{
+    background-color: #98c1d9;
+    padding: 10px;
+}
+
+table{
+    align-items: center;
+    margin-top: 50px;
+}
+
+td{
+    padding: 0 35px 0 35px;
+}
+
+.price-menu{
+    font-weight: 700;
+    text-align: left;
+    padding: 50px;
+    padding-left: 10px;
+}
+
+.fa-circle-xmark{
+    color: red;
+}
+.fa-circle-check{
+    color: green;
+}

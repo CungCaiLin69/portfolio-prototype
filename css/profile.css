@@ -1,0 +1,270 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 500%;
+    margin: 0 auto;
+    color:  black;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3, h2{
+    color: black
+}
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 1s infinite ease-in;
+  }
+  
+@keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+}
+  
+@keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+}
+
+.profpic{
+    border-radius: 100%;
+    width: 150px;
+    margin-top: 25px;
+    position: relative;
+    display: inline-block;
+}
+
+.name{
+    margin-top: 150px;
+    font-family: 'General Sans', sans-serif;
+    text-align: center;
+}
+
+.skills{
+    background-color: #f8f9fa;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.mid-con{
+    margin-top: 50px;
+}
+
+.html, .css, .js, .reactjs{
+    width: 35%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.C, .Java, .Python, .CS{
+    width: 35%;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.figma, .ai, .ps, .xd{
+    width: 35%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-image-1{
+    width: 30%;
+    float: left;
+}
+
+.skill-image-2{
+    width: 30%;
+    float: right;
+}
+
+.skill-image-3{
+    width: 30%;
+    float: left;
+}
+
+.skill-row-1{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row-2{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: right;
+    line-height: 2;
+}
+
+.skill-row-3{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.bio-1{
+    margin: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.profile-highlight{
+    margin: 100px auto 20px auto;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6 6px;
+    border-width: 5px;
+    height: 0;
+    width: 5%;
+    margin: 100px auto;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+        to bottom,
+        #6B73FF,
+        #000DFF
+    );
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track{
+    background: #969892;
+}
+
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title{
+    background-color: #98c1d9;
+    color: black;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+#biography{
+    background-color: #fff;
+    position: relative;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.education{
+    margin-bottom: 100px;
+}
+
+.edu-image{
+    width: 30%;
+    margin: 50px auto 50px 50px;
+    position: absolute;
+    left: 10px;
+}
+
+.edu-bio{
+    margin-left: 37%;
+    float: left;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.edu-name{
+    margin-bottom: 40px 
+}
+
+.bio-5{
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+

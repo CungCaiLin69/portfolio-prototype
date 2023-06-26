@@ -1,0 +1,274 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  
+@keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+}
+  
+@keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+        to bottom,         
+        #6B73FF,
+        #000DFF
+    );
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track{
+    background: #969892;
+}
+
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title{
+    background-color: #98c1d9;
+    color: black;
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 20%;
+    position: absolute;
+    top: 142px;
+    left: 870px;
+}
+
+.html, .css, .js, .react, .figma, .nodejs{
+    width: 80px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.html{
+    transform: rotate(30deg);
+}
+.css{
+    transform: rotate(-11deg);
+}
+.js{
+    transform: rotate(-34deg);
+}
+.figma{
+    transform: rotate(32deg);
+}
+
+.logo-column-1{
+    position: absolute;
+    left: 800px;
+    width: 20px;
+}
+
+.logo-column-2{
+    position: absolute;
+    left: 1100px;
+    width: 20px;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.icon{
+    color: #98c1d9;
+    margin-bottom: 1rem;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    background-color: #98c1d9;
+    color: black;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #98c1d9;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #98c1d9; 
+    padding: 7% 15%;
+}
+
+.cta-text{
+    font-family: 'Montserrat', sans-serif;
+    size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#footer{
+    padding: 7% 15%;
+}
+
+.footer-logo{
+    margin: 20px 10px;
+}
+
+@media(max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+    }
+    .html, .css, .js, .react, .figma, .nodejs{
+        width: 30px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .logo-column-1{
+        position: absolute;
+        left: 35%;
+        width: 20%;
+        top: 64%;
+    }
+    .logo-column-2{
+        position: absolute;
+        left: 53%;
+        width: 20%;
+        top: 64%;
+    }
+}
